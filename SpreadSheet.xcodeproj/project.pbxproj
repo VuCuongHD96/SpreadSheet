@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		963B81E72AD9929300D212E2 /* SpreadSheetViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B81E62AD9929300D212E2 /* SpreadSheetViewApp.swift */; };
+		963B81E72AD9929300D212E2 /* SpreadSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B81E62AD9929300D212E2 /* SpreadSheetApp.swift */; };
 		963B81E92AD9929300D212E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B81E82AD9929300D212E2 /* ContentView.swift */; };
 		963B81EB2AD9929600D212E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963B81EA2AD9929600D212E2 /* Assets.xcassets */; };
 		963B81EE2AD9929600D212E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963B81ED2AD9929600D212E2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		963B81E32AD9929300D212E2 /* SpreadSheetView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreadSheetView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		963B81E62AD9929300D212E2 /* SpreadSheetViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewApp.swift; sourceTree = "<group>"; };
+		963B81E32AD9929300D212E2 /* SpreadSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreadSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963B81E62AD9929300D212E2 /* SpreadSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadSheetApp.swift; sourceTree = "<group>"; };
 		963B81E82AD9929300D212E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		963B81EA2AD9929600D212E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		963B81ED2AD9929600D212E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		963B81DA2AD9929300D212E2 = {
 			isa = PBXGroup;
 			children = (
-				963B81E52AD9929300D212E2 /* SpreadSheetView */,
+				963B81E52AD9929300D212E2 /* SpreadSheet */,
 				963B81E42AD9929300D212E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		963B81E42AD9929300D212E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				963B81E32AD9929300D212E2 /* SpreadSheetView.app */,
+				963B81E32AD9929300D212E2 /* SpreadSheet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		963B81E52AD9929300D212E2 /* SpreadSheetView */ = {
+		963B81E52AD9929300D212E2 /* SpreadSheet */ = {
 			isa = PBXGroup;
 			children = (
-				963B81E62AD9929300D212E2 /* SpreadSheetViewApp.swift */,
+				963B81E62AD9929300D212E2 /* SpreadSheetApp.swift */,
 				963B81E82AD9929300D212E2 /* ContentView.swift */,
 				963B81EA2AD9929600D212E2 /* Assets.xcassets */,
 				963B81EC2AD9929600D212E2 /* Preview Content */,
 			);
-			path = SpreadSheetView;
+			path = SpreadSheet;
 			sourceTree = "<group>";
 		};
 		963B81EC2AD9929600D212E2 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		963B81E22AD9929300D212E2 /* SpreadSheetView */ = {
+		963B81E22AD9929300D212E2 /* SpreadSheet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 963B81F12AD9929600D212E2 /* Build configuration list for PBXNativeTarget "SpreadSheetView" */;
+			buildConfigurationList = 963B81F12AD9929600D212E2 /* Build configuration list for PBXNativeTarget "SpreadSheet" */;
 			buildPhases = (
 				963B81DF2AD9929300D212E2 /* Sources */,
 				963B81E02AD9929300D212E2 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SpreadSheetView;
+			name = SpreadSheet;
 			productName = SpreadSheetView;
-			productReference = 963B81E32AD9929300D212E2 /* SpreadSheetView.app */;
+			productReference = 963B81E32AD9929300D212E2 /* SpreadSheet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 963B81DE2AD9929300D212E2 /* Build configuration list for PBXProject "SpreadSheetView" */;
+			buildConfigurationList = 963B81DE2AD9929300D212E2 /* Build configuration list for PBXProject "SpreadSheet" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				963B81E22AD9929300D212E2 /* SpreadSheetView */,
+				963B81E22AD9929300D212E2 /* SpreadSheet */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963B81E92AD9929300D212E2 /* ContentView.swift in Sources */,
-				963B81E72AD9929300D212E2 /* SpreadSheetViewApp.swift in Sources */,
+				963B81E72AD9929300D212E2 /* SpreadSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpreadSheetView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpreadSheet/Preview Content\"";
 				DEVELOPMENT_TEAM = GCAT449K7M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,6 +280,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpreadSheetView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpreadSheet/Preview Content\"";
 				DEVELOPMENT_TEAM = GCAT449K7M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,6 +310,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		963B81DE2AD9929300D212E2 /* Build configuration list for PBXProject "SpreadSheetView" */ = {
+		963B81DE2AD9929300D212E2 /* Build configuration list for PBXProject "SpreadSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				963B81EF2AD9929600D212E2 /* Debug */,
@@ -334,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		963B81F12AD9929600D212E2 /* Build configuration list for PBXNativeTarget "SpreadSheetView" */ = {
+		963B81F12AD9929600D212E2 /* Build configuration list for PBXNativeTarget "SpreadSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				963B81F22AD9929600D212E2 /* Debug */,
